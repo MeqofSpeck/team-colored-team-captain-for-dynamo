@@ -1,0 +1,67 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "pbr.vfx"
+
+	//---- Enable Status Effects ----
+	F_USE_STATUS_EFFECTS_PROXY 1
+
+	//---- NPR ----
+	F_SOLID_COLOR_OUTLINE 1
+	F_USE_NPR_LIGHTING 1
+
+	//---- Rendering ----
+	F_WRITE_DEPTH_BEFORE_ALPHA_BLENDING 1
+
+	//---- Color ----
+	g_bMaskColorTint1 "1"
+	g_bMaskVertexColorTint1 "1"
+	g_flAlbedoScrollQuantize1 "0.000"
+	g_fVertexColorStrength1 "1.000"
+	g_nTextureColorTintMode1 "0" // Multiply
+	g_vAlbedoContrastSaturationBrightness1 "[1.000 1.000 1.000]"
+	g_vAlbedoScrollSpeed1 "[0.000 0.000]"
+	g_vColorTint1 "[0.854902 0.647059 0.125490 1.000000]"
+	TextureColor1 "models/heroes_wip/dynamo/materials/capt_dyno_color.png"
+	TextureTintMask1 "materials/default/default_mask.tga"
+
+	//---- Metalness ----
+	TextureMetalness1 "materials/default/default_metal.tga"
+
+	//---- Normal and Roughness ----
+	g_flNormalAndRoughnessScrollQuantize1 "0.000"
+	g_vNormalAndRoughnessScrollSpeed1 "[0.000 0.000]"
+	TextureNormal1 "materials/default/default_normal.tga"
+	TextureRoughness1 "[1.000000 1.000000 1.000000 1.000000]"
+
+	//---- NPR ----
+	g_flHighlightAOStrength1 "1.000"
+	g_flHighlightCoverage1 "0.000"
+	g_flHighlightHardness1 "0.000"
+	g_flHighlightNormalStrength1 "64.000"
+	g_flHighlightRadius1 "256.000"
+	g_flHighlightTintBrightness1 "1.000"
+	g_flInvertHighlight1 "0.000"
+	g_fSolidOutlineVertexColorTint "0.000"
+	g_vHighlightPositionWs1 "[0.000 0.000 72.000]"
+	g_vHighlightTint1 "[1.000000 1.000000 1.000000 0.000000]"
+	g_vSolidOutlineAdditive "[0.011765 0.011765 0.011765 0.000000]"
+	g_vSolidOutlineTint "[0.101961 0.101961 0.101961 0.000000]"
+	TextureNprOutlineMask1 "materials/default/default_mask.tga"
+	TextureNprTramsissiveColor1 "[0.117647 0.003922 0.003922 0.000000]"
+	TextureRimLightMask1 "materials/default/default_mask.tga"
+
+	//---- Occlusion ----
+	TextureAmbientOcclusion1 "materials/default/default_ao.tga"
+
+	//---- Texture Coordinates ----
+	g_nScaleTexCoord2UByModelScaleAxis "0" // None
+	g_nScaleTexCoord2UByModelScaleOrigin "0" // Left
+	g_nScaleTexCoord2VByModelScaleAxis "0" // None
+	g_nScaleTexCoord2VByModelScaleOrigin "2" // Bottom
+	g_nScaleTexCoordUByModelScaleAxis "0" // None
+	g_nScaleTexCoordUByModelScaleOrigin "0" // Left
+	g_nScaleTexCoordVByModelScaleAxis "0" // None
+	g_nScaleTexCoordVByModelScaleOrigin "2" // Bottom
+}
